@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+.fondo{
+    
+    background-image: url(/images/fondo.jpg);
+    background-repeat: no-repeat;
+   
+}
+div {
+    position: relative;
+    animation: mymove 5s infinite;
+   
+}
+@keyframes mymove {
+    from {top: 100px;}
+    to {left: 300px; top: 100px;}
+  }
